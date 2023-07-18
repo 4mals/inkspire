@@ -1,32 +1,32 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    background-color: #171717;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+  font-family: 'Segoe UI', Roboto, Ubuntu, sans-serif;
+  color: #ffffff;
 }
 
 .center-container {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    color: #fff;
-    white-space: pre-line;
-    font-weight: 110;
-    font-style: normal;
-    font-size: 25px;
+  color: #ffffff;
+  white-space: pre-line;
+  font-weight: 110;
+  font-style: normal;
+  font-size: 25px;
 }
 
 h2 {
-    color: #fff;
-    margin-left: 180px;
-    margin-top: 80px;
-    font-weight: 110;
-    font-style: normal;
-    font-size: 22px;
-    white-space: nowrap;
-  
+  color: #ffffff;
+  margin-left: 180px;
+  margin-top: 80px;
+  font-weight: 110;
+  font-style: normal;
+  font-size: 22px;
+  white-space: nowrap;
 }
