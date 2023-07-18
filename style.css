@@ -1,12 +1,33 @@
+.light-theme { 
+  background-color: #ffffff; 
+  color: #171717; 
+}
+
+.light-theme h1,
+.light-theme h2 {
+  color: #171717;
+}
+
+
+/* Dark theme */
+.dark-theme { 
+  background-color: #171717;
+  color: #ffffff;
+}
+
+.dark-theme h1,
+.dark-theme h2 {
+  color: #ffffff;
+}
+
+/* Other CSS code */
 html, body {
   height: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #171717;
-  font-family: 'Segoe UI', Roboto, Ubuntu, sans-serif;
-  color: #ffffff;
+  font-family:'Segoe UI', Roboto, Ubuntu, sans-serif;
 }
 
 .center-container {
@@ -14,7 +35,6 @@ html, body {
 }
 
 h1 {
-  color: #ffffff;
   white-space: pre-line;
   font-weight: 110;
   font-style: normal;
@@ -22,7 +42,6 @@ h1 {
 }
 
 h2 {
-  color: #ffffff;
   margin-left: 180px;
   margin-top: 80px;
   font-weight: 110;
