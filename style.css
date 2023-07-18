@@ -27,4 +27,6 @@ h2 {
     font-weight: 110;
     font-style: normal;
     font-size: 22px;
+    white-space: nowrap;
+  
 }
