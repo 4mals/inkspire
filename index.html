@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>inkspire</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
   <div class="center-container">
     <h1 id="quote"></h1>
     <h2 id="author"></h2>
   </div>
-
   <script>
     fetch('https://api.quotable.io/random')
       .then(response => response.json())
@@ -44,17 +41,12 @@
          c.add(e + '-theme' || ''); 
        } 
        if (e === 'light' || e === 'dark') d.style.colorScheme = e; 
-     } 
-  
+     }
      updateTheme(); 
-  
      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme); 
-
      window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', updateTheme); 
    } catch (e) { } 
  })();
   </script>
-
 </body>
-
 </html>
