@@ -24,7 +24,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family:'Segoe UI', Roboto, Ubuntu, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .center-container {
