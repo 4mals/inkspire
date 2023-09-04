@@ -11,41 +11,6 @@
     <h1 id="quote"></h1>
     <h2 id="author"></h2>
   </div>
-  <script>
-    fetch('https://api.quotable.io/random')
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById('quote').textContent = data.content;
-        document.getElementById('author').textContent = `— ${data.author}`;
-      })
-      .catch(error => console.error('Error:', error));
-    (function() { 
-   try { 
-     function updateTheme() { 
-       const d = document.documentElement; 
-       const c = d.classList; 
-       c.remove('light-theme', 'dark-theme'); 
-       const e = localStorage.getItem('theme'); 
-       if (e === 'system' || (!e && true)) { 
-         const t = '(prefers-color-scheme: dark)', 
-           m = window.matchMedia(t); 
-         if (m.matches) { 
-           d.style.colorScheme = 'dark'; 
-           c.add('dark-theme'); 
-         } else { 
-           d.style.colorScheme = 'light'; 
-           c.add('light-theme'); 
-         } 
-       } else if (e) { 
-         c.add(e + '-theme' || ''); 
-       } 
-       if (e === 'light' || e === 'dark') d.style.colorScheme = e; 
-     }
-     updateTheme(); 
-     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme); 
-     window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', updateTheme); 
-   } catch (e) { } 
- })();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
