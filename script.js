@@ -23,7 +23,7 @@ function updateQuote() {
     });
 }
 
-(function () {
+(function() {
   try {
     function updateTheme() {
       const d = document.documentElement;
@@ -53,8 +53,7 @@ function updateQuote() {
     window
       .matchMedia('(prefers-color-scheme: light)')
       .addEventListener('change', updateTheme);
-  } catch (e) {}
+  } catch (e) { }
 })();
 
-// Initial quote update
 updateQuote();

@@ -1,6 +1,6 @@
-.light-theme { 
-  background-color: #ffffff; 
-  color: #000000; 
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .light-theme h1,
@@ -8,7 +8,7 @@
   color: #000000;
 }
 
-.dark-theme { 
+.dark-theme {
   background-color: #000000;
   color: #ffffff;
 }
@@ -18,7 +18,8 @@
   color: #ffffff;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
@@ -37,7 +38,7 @@ h1 {
   font-style: normal;
   font-size: 25px;
   flex-shrink: 0;
-  
+
 }
 
 h2 {
@@ -46,5 +47,5 @@ h2 {
   font-weight: 190;
   font-style: normal;
   font-size: 17px;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
